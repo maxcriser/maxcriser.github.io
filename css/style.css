@@ -67,23 +67,23 @@
    }
 
 .vk {
-	background-image: url('../img/vk-hover.gif');
+	background-image: url('hover/vk-hover.gif');
 }
 
 .google-plus {
-	background-image: url('../img/google-hover.gif');
+	background-image: url('hover/google-hover.gif');
 }
 
 .twitter {
-	background-image: url('../img/twitter-hover.gif');
+	background-image: url('hover/twitter-hover.gif');
 }
 
 .instagram {
-	background-image: url('../img/instagram-hover.gif');
+	background-image: url('hover/instagram-hover.gif');
 }
 
 .youtube {
-	background-image: url('../img/youtube-hover.gif');
+	background-image: url('hover/youtube-hover.gif');
 }
 
 .social-slide:hover {
