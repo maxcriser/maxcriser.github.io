@@ -230,29 +230,23 @@ p {
   height: 110px;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  border: 4px solid #344860;
-  border-radius: 100px;
-  background-color: rgba(52, 72, 96, 0.2);
-  background-image: url(https://d3e54v103j8qbb.cloudfront.net/img/example-bg.png);
-  background-size: 50px;
+  background-size: 110px;
   text-align: left;
 }
-.round-icon.camera {
-  background-image: url(../image/camera_0.png);
+.round-icon.horizon {
+  background-image: url(../image/horizon.png);
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-.round-icon.camera:hover {
+.round-icon.horizon:hover {
   background-color: white;
 }
-.round-icon.pen {
-  background-image: url(../image/pen.png);
+.round-icon.ckeeper {
+  background-image: url(../image/ckeeper.png);
   background-position: 50% 50%;
   background-repeat: no-repeat;
 }
-.round-icon.pen:hover {
+.round-icon.ckeeper:hover {
   background-color: white;
 }
 .round-icon.seo {
