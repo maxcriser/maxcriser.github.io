@@ -5,17 +5,37 @@
 </head>
 <body>
 <script>
-  (function (w,d,s,o,f,js,fjs) {
-    w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
-    js = d.createElement(s); fjs = d.getElementsByTagName(s)[0];
-    js.id = o; js.src = f; js.async = true; fjs.parentNode.insertBefore(js, fjs);
-  }(window, document, 'script', 'eyeZon', 'https://storage.googleapis.com/eyezonscriptv2/static/js/eyezonwidget.js'));
+    (function (w,d,s,o,f,js,fjs) {
+        w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) };
+        js = d.createElement(s); fjs = d.getElementsByTagName(s)[0];
+        js.id = o; js.src = f; js.async = true; fjs.parentNode.insertBefore(js, fjs);
+    }(window, document, 'script', 'eyeZon', 'https://storage.googleapis.com/eyezonscriptv2/static/js/eyezonwidget.js'));
+    const searchParams = new URL(window.location.href).searchParams;
 
-  eyeZon('init', {
-    businessId: '5d63fe246c2590002eecef83',
-    region: 'ru-1',
-    unclosable: true,
-  });
+    window.eyezon_WebViewLogging = true;
+    window.eyezon_WebViewHideNotificationUI = true;
+
+    eyeZon('init', {
+        businessId: '5d63fe246c2590002eecef83',
+    	region: 'ru-1',
+        unclosable: true
+    });
+
+    if (searchParams.get('name') !== null) {
+        eyeZon('setDefaultClientField', 'name', searchParams.get('name'));
+    }
+    if (searchParams.get('phone') !== null) {
+        eyeZon('setDefaultClientField', 'phone', searchParams.get('phone'));
+    }
+    if (searchParams.get('email') !== null) {
+        eyeZon('setDefaultClientField', 'email', searchParams.get('email'));
+    }
+    if (searchParams.get('clientId')) {
+        eyeZon('setAnalyticsParam', 'clientId', searchParams.get('clientId'));
+    }
+    if (searchParams.get('region')) {
+        eyeZon('setAnalyticsParam', 'region', searchParams.get('region'));
+    }
 </script>
 </body>
 </html>
