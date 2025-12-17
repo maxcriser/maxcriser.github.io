@@ -1,0 +1,125 @@
+{
+  "spanCount": 6,
+  "sections": [
+    {
+      "id": "school_drop_off",
+      "title": "School Drop-off",
+      "icon": "https://maxcriser.github.io/img/image_school_drop_off.png",
+      "grid_design": {
+        "spanRow": 2,
+        "spanColumn": 3,
+        "top": {
+          "area": 0.6,
+          "icon": "https://maxcriser.github.io/img/image_school_drop_off.png"
+        },
+        "bottom": {
+          "area": 0.4,
+          "text": "School Drop-off"
+        }
+      }
+    },
+    {
+      "id": "pet_to_vet",
+      "title": "Pet to Vet",
+      "icon": "https://maxcriser.github.io/img/image_pet_to_vet.png",
+      "grid_design": {
+        "spanRow": 2,
+        "spanColumn": 3,
+        "top": {
+          "area": 0.6,
+          "icon": "https://maxcriser.github.io/img/image_pet_to_vet.png"
+        },
+        "bottom": {
+          "area": 0.4,
+          "text": "Pet to Vet"
+        }
+      }
+    },
+    {
+      "id": "move_car_from_a_to_b",
+      "title": "Move Car from A to B",
+      "icon": "https://maxcriser.github.io/img/image_move_car_from_a_to_b.png",
+      "grid_design": {
+        "spanRow": 2,
+        "spanColumn": 6,
+        "start": {
+          "area": 0.6,
+          "text": "Move Car from A to B"
+        },
+        "end": {
+          "area": 0.4,
+          "icon": "https://maxcriser.github.io/img/image_move_car_from_a_to_b.png"
+        }
+      }
+    },
+    {
+      "id": "after_party",
+      "title": "After Party",
+      "icon": "https://maxcriser.github.io/img/image_after_party.png",
+      "grid_design": {
+        "spanRow": 2,
+        "spanColumn": 3,
+        "top": {
+        "area": 0.6,
+        "icon": "https://maxcriser.github.io/img/image_after_party.png"
+        },
+        "bottom": {
+          "area": 0.4,
+          "text": "After Party"
+        }
+      }
+    },
+    {
+      "id": "airport_transfer",
+      "title": "Airport Transfer",
+      "icon": "https://maxcriser.github.io/img/image_airport_transfer.png",
+      "grid_design": {
+        "spanRow": 4,
+        "spanColumn": 3,
+        "top": {
+          "area": 0.6,
+          "icon": "https://maxcriser.github.io/img/image_airport_transfer.png"
+        },
+        "bottom": {
+          "area": 0.4,
+          "text": "Airport Transfer"
+        }
+      }
+    },
+    {
+      "id": "car_service",
+      "title": "Car Service",
+      "icon": "https://maxcriser.github.io/img/image_car_service.png",
+      "grid_design": {
+        "spanRow": 2,
+        "spanColumn": 3,
+        "top": {
+          "area": 0.6,
+          "icon": "https://maxcriser.github.io/img/image_car_service.png"
+        },
+        "bottom": {
+          "area": 0.4,
+          "text": "Car Service"
+        }
+      }
+    },
+    {
+      "id": "other",
+      "title": "Other",
+      "icon": "https://maxcriser.github.io/img/image_other.png",
+      "grid_design": {
+        "spanRow": 2,
+        "spanColumn": 6,
+        "top": {
+          "area": 0.6,
+          "icon": "https://maxcriser.github.io/img/image_other.png"
+        },
+        "bottom": {
+          "area": 0.4,
+          "text": "Other"
+        }
+      }
+    }
+  ]
+}
+
