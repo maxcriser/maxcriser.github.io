@@ -5,6 +5,7 @@
       "id": "school_drop_off",
       "title": "School Drop-off",
       "icon": "https://maxcriser.github.io/img/image_school_drop_off.png",
+      "default_route_type": "round_trip",
       "grid_design": {
         "spanRow": 2,
         "spanColumn": 3,
@@ -22,6 +23,7 @@
       "id": "pet_to_vet",
       "title": "Pet to Vet",
       "icon": "https://maxcriser.github.io/img/image_pet_to_vet.png",
+      "default_route_type": "round_trip",
       "grid_design": {
         "spanRow": 2,
         "spanColumn": 3,
@@ -39,6 +41,7 @@
       "id": "move_car_from_a_to_b",
       "title": "Move Car from A to B",
       "icon": "https://maxcriser.github.io/img/image_move_car_from_a_to_b.png",
+      "default_route_type": "one_way",
       "grid_design": {
         "spanRow": 2,
         "spanColumn": 6,
@@ -56,12 +59,13 @@
       "id": "after_party",
       "title": "After Party",
       "icon": "https://maxcriser.github.io/img/image_after_party.png",
+      "default_route_type": "one_way",
       "grid_design": {
         "spanRow": 2,
         "spanColumn": 3,
         "top": {
-        "area": 0.6,
-        "icon": "https://maxcriser.github.io/img/image_after_party.png"
+          "area": 0.6,
+          "icon": "https://maxcriser.github.io/img/image_after_party.png"
         },
         "bottom": {
           "area": 0.4,
@@ -73,6 +77,7 @@
       "id": "airport_transfer",
       "title": "Airport Transfer",
       "icon": "https://maxcriser.github.io/img/image_airport_transfer.png",
+      "default_route_type": "round_trip",
       "grid_design": {
         "spanRow": 4,
         "spanColumn": 3,
@@ -90,6 +95,7 @@
       "id": "car_service",
       "title": "Car Service",
       "icon": "https://maxcriser.github.io/img/image_car_service.png",
+      "default_route_type": "round_trip",
       "grid_design": {
         "spanRow": 2,
         "spanColumn": 3,
@@ -107,6 +113,7 @@
       "id": "other",
       "title": "Other",
       "icon": "https://maxcriser.github.io/img/image_other.png",
+      "default_route_type": "round_trip",
       "grid_design": {
         "spanRow": 2,
         "spanColumn": 6,
@@ -122,4 +129,3 @@
     }
   ]
 }
-
