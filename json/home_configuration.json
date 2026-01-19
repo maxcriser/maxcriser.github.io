@@ -82,11 +82,11 @@
         "spanRow": 4,
         "spanColumn": 3,
         "top": {
-          "area": 0.6,
+          "area": 0.4,
           "icon": "https://maxcriser.github.io/img/image_airport_transfer.png"
         },
         "bottom": {
-          "area": 0.4,
+          "area": 0.6,
           "text": "Airport Transfer"
         }
       }
